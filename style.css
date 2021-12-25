@@ -135,17 +135,17 @@ label a {
 }
 
     .descricao_produto {
-        width: 280px;
+        width: 300px;
         margin-left: 20px;
  }
 
     .produto {
-        width: 445px;
+        width: 420px;
         height: 480px;
 }
 
     .fundo_conteudo h1 {
-        font-size: 27px;
+        font-size: 24px;
 }
 
     nav ul {
