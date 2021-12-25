@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav ul, nav ui {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul {
+    display: flex;
+    font-size: 12px;
+    padding-top: 17px;
+    padding-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 5px;
+}
+
+.fundo_barra {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+nav .active a,
+nav a:hover {
+	background-color: #0a3e82;
+	color: #ffffff;
+	font-weight: bold;
+    font-size: 13px;
+}
+
+.fundo_conteudo {
+    display: flex;
+    height: 540px;
+}
+
+.descricao_produto {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    line-height: 23px;
+}
+
+.produto {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    width: 30%;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+}
+
+.produto h1 {
+    font-weight: bolder;
+    padding-right: 100px;
+}
+
+button {
+   border: 1px solid black;
+   flex-direction: row;
+   background-color: transparent;
+   height: 30px;
+   text-align: center;
+   display: inline;
+   flex-direction: row;
+   border-radius: 20px;
+}
+
+.botao1 {
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0a3e82;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+label a {
+    text-decoration: none;
+}
+
+.menu_mobile {
+	display: none;
+	width: 40px;
+	height: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+
+.mm_line {
+	height: 3px;
+	background-color: #0a3e82;
+}
+
+@media (max-width: 600px) {
+
+    .fundo_conteudo {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+}
+
+    .descricao_produto {
+        width: 325px;
+        margin-left: 20px;
+ }
+
+    .produto {
+        width: 445px;
+        height: 480px;
+}
+
+    .fundo_conteudo h1 {
+        font-size: 27px;
+}
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        border-radius: 6px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+ }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+}
