@@ -52,7 +52,6 @@ nav a:hover {
 
 .fundo_conteudo {
     display: flex;
-    height: 540px;
 }
 
 .descricao_produto {
@@ -140,8 +139,11 @@ label a {
  }
 
     .produto {
+        position: absolute;
         width: 370px;
         height: 480px;
+        margin-top: 660px;
+        border: none;
 }
 
     .fundo_conteudo h1 {
@@ -162,6 +164,10 @@ label a {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-}
+    }
+
+    .botao1 {
+        margin-top: 370px;
+    }
 
 }
