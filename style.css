@@ -138,13 +138,14 @@ label a {
         width: 250px;
         height: 1040px;
         margin-left: 20px;
+        padding-top: 95px;
  }
 
     .produto {
         position: absolute;
         width: 370px;
         height: 480px;
-        margin-top: 650px;
+        margin-top: 665px;
         border: none;
 }
 
@@ -171,5 +172,8 @@ label a {
     .botao1 {
         margin-top: 370px;
     }
-
+    
+    .botao2 {
+        margin-bottom: 50px;
+    }
 }
