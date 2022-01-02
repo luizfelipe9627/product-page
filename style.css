@@ -136,7 +136,7 @@ label a {
 
     .descricao_produto {
         width: 250px;
-        height: 1040px;
+        height: 1035px;
         margin-left: 20px;
         padding-top: 95px;
  }
@@ -145,7 +145,7 @@ label a {
         position: absolute;
         width: 370px;
         height: 480px;
-        margin-top: 665px;
+        margin-top: 655px;
         border: none;
 }
 
@@ -170,7 +170,7 @@ label a {
     }
 
     .botao1 {
-        margin-top: 370px;
+        margin-top: 360px;
     }
     
     .botao2 {
