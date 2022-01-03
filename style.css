@@ -115,7 +115,7 @@ label a {
 	display: none;
 	width: 40px;
 	height: 40px;
-	margin-top: 40px;
+	margin-top: 35px;
 	margin-bottom: 40px;
 	margin-right: 20px;
 }
@@ -136,17 +136,16 @@ label a {
 
     .descricao_produto {
         width: 250px;
-        height: 1030px;
+        height: 1060px;
         margin-left: 20px;
         padding-top: 95px;
  }
 
     .produto {
         position: absolute;
-        width: 370px;
-        height: 480px;
-        margin-top: 655px;
         border: none;
+        padding-top: 700px;
+        padding-left: 130px;
 }
 
     .fundo_conteudo h1 {
@@ -156,7 +155,7 @@ label a {
     nav ul {
         flex-direction: column;
         display: none;
-        position: absolute;
+        position: fixed;
         border-radius: 6px;
         left: 0;
         width: 100%;
@@ -168,12 +167,10 @@ label a {
         flex-direction: column;
         justify-content: space-around;
     }
-
     .botao1 {
-        margin-top: 360px;
+        margin-top: 400px;
     }
-    
     .botao2 {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 }
