@@ -6,10 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-    FUNDO ↴
-*/
-
 body {
     padding: 0px;
     margin: 0px;
@@ -19,33 +15,32 @@ body {
 	MENU↴
 */
 
-.logo {
+header .logo {
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
 
-.fundo_barra {
+header .fundo_barra {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.11);
 }
 
-nav ul, nav ui {
+header nav ul, nav ui {
     list-style: none;
     margin: 0;
     padding: 0;
-   
 }
 
-nav ul {
+header nav ul {
     display: flex;
     font-size: 12px;
     padding-top: 17px;
     padding-right: 20px;
 }
 
-nav a {
+header nav a {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -54,15 +49,14 @@ nav a {
     border-radius: 5px;
 }
 
-nav .active a,
-nav a:hover {
+header nav .active a, header nav a:hover {
 	background-color: #0a3e82;
 	color: #ffffff;
 	font-weight: bold;
     font-size: 13px;
 }
 
-.menu_mobile {
+header .menu_mobile {
 	display: none;
 	width: 40px;
 	height: 40px;
@@ -71,7 +65,7 @@ nav a:hover {
 	margin-right: 20px;
 }
 
-.mm_line {
+header .mm_line {
 	height: 3px;
 	background-color: #0a3e82;
 }
@@ -80,7 +74,7 @@ nav a:hover {
 	FUNDO CONTEUDO↴
 */
 
-.fundo_conteudo {
+aside .fundo_conteudo {
     display: flex;
     height: 540px;
     padding-left: 55px;
@@ -90,7 +84,7 @@ nav a:hover {
 	DESCRIÇÃO PRODUTO ↴
 */
 
-.descricao_produto {
+aside .descricao_produto {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -103,38 +97,46 @@ nav a:hover {
     border: 1px solid rgba(0, 0, 0, 0.11);
     border-radius: 5px;
     line-height: 23px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
-.produto h1 {
+aside .produto h1 {
     font-weight: bolder;
     padding-right: 100px;
 }
 
-button {
+aside button {
    border: 1px solid black;
-   flex-direction: row;
    background-color: transparent;
    height: 30px;
    text-align: center;
-   display: inline;
-   flex-direction: row;
    border-radius: 20px;
 }
 
-.botao1 {
+aside .botao1 {
     margin-bottom: 10px;
-    margin-top: 15px;
+    font-size: 17px;
+    margin-top: 5px;
 }
 
-button:hover {
+aside .botao2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+aside button:hover {
     background-color: #0a3e82;
     color: white;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: bolder;
+    box-shadow: 2px 2px 10px rgb(131, 130, 130);
 }
 
-label a {
+aside label {
+    text-align: center;
+}
+
+aside label a {
     text-decoration: none;
 }
 
@@ -142,7 +144,7 @@ label a {
 	FOTO PRODUTO ↴
 */
 
-.produto {
+aside .produto {
     display: flex;
     align-items: center;
     width: 25%;
@@ -158,7 +160,7 @@ label a {
 	MENU ↴
     */
     
-    nav ul {
+    header nav ul {
         flex-direction: column;
         display: none;
         position: absolute;
@@ -168,7 +170,7 @@ label a {
         background-color: #ffffff;
  }
 
-    .menu_mobile {
+    header .menu_mobile {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -178,14 +180,14 @@ label a {
 	FUNDO CONTEUDO↴
     */
 
-    .fundo_conteudo {
+    aside .fundo_conteudo {
         display: flex;
         flex-direction: column;
         padding: 0;
-        margin: 10px;   
+        margin: 10px;  
     }
     
-    .fundo_conteudo h1 {
+    aside .fundo_conteudo h1 {
         font-size: 18px;
     }
 
@@ -193,34 +195,34 @@ label a {
 	DESCRIÇÃO PRODUTO ↴
     */
 
-    .descricao_produto {
+    aside .descricao_produto {
         width: 250px;
         margin-left: 5px;
-        height: 940px;
+        height: 1040px;
         line-height: 19px;
     }
 
-    .descricao_produto h1 {
-        padding-top: 40px;
+    aside .descricao_produto h1 {
+        padding-top: 25px;
     }
 
-    .botao1 {
-        margin-top: 400px;
+    aside .botao1 {
+        margin-top: 420px;
     }
 
-    .botao2 {
-        margin-bottom: 40px;
+    aside .botao2 {
+        margin-bottom: 50px;
     }
 
     /*
         FOTO PRODUTO ↴
     */
 
-    .produto {
+    aside .produto {
         position: absolute;
         width: 290px;
         height: 300px;
-        margin-top: 620px;
+        margin-top: 700px;
         border: none;
     }
 }
