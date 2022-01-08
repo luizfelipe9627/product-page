@@ -1,23 +1,11 @@
-/*
-    GERAL ↴
-*/
-
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/*
-    FUNDO ↴
-*/
 
 body {
     padding: 0px;
     margin: 0px;
 }
-
-/*
-    ÁREA MENU ↴
-*/
 
 .logo {
     display: flex;
@@ -29,6 +17,7 @@ nav ul, nav ui {
     list-style: none;
     margin: 0;
     padding: 0;
+   
 }
 
 nav ul {
@@ -47,6 +36,12 @@ nav a {
     border-radius: 5px;
 }
 
+.fundo_barra {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
 nav .active a,
 nav a:hover {
 	background-color: #0a3e82;
@@ -55,39 +50,8 @@ nav a:hover {
     font-size: 13px;
 }
 
-.fundo_barra {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
-}
-
-.menu_mobile {
-	display: none;
-	width: 40px;
-	height: 40px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	margin-right: 20px;
-}
-
-.mm_line {
-	height: 3px;
-	background-color: #0a3e82;
-}
-
-
-/*
-    DESCRIÇÃO PRODUTO ↴
-*/
-
 .fundo_conteudo {
     display: flex;
-    height: 540px;
-}
-
-.produto h1 {
-    font-weight: bolder;
-    padding-right: 100px;
 }
 
 .descricao_produto {
@@ -105,20 +69,35 @@ nav a:hover {
     line-height: 23px;
 }
 
-.botao1 {
-    margin-bottom: 10px;
+.produto {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    width: 30%;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
 }
+
+.produto h1 {
+    font-weight: bolder;
+    padding-right: 100px;
+}
+
 button {
    border: 1px solid black;
    flex-direction: row;
    background-color: transparent;
-   height: 35px;
+   height: 30px;
    text-align: center;
    display: inline;
    flex-direction: row;
    border-radius: 20px;
 }
 
+.botao1 {
+    margin-bottom: 10px;
+}
 
 button:hover {
     background-color: #0a3e82;
@@ -135,7 +114,7 @@ label a {
 	display: none;
 	width: 40px;
 	height: 40px;
-	margin-top: 35px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 	margin-right: 20px;
 }
@@ -145,40 +124,36 @@ label a {
 	background-color: #0a3e82;
 }
 
-.produto {
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    width: 30%;
-    margin: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.11);
-    border-radius: 5px;
+@media (max-width: 600px) {
+
+    .fundo_conteudo {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
 }
 
     .descricao_produto {
         width: 250px;
-        height: 1060px;
         margin-left: 20px;
-        padding-top: 95px;
  }
 
     .produto {
         position: absolute;
+        width: 370px;
+        height: 480px;
+        margin-top: 680px;
         border: none;
-        padding-top: 700px;
-        padding-left: 130px;
 }
 
-@media (max-width: 600px) {
-    
-    /*
-        ÁREA MENU ↴
-    */
+    .fundo_conteudo h1 {
+        font-size: 18px;
+}
 
     nav ul {
         flex-direction: column;
         display: none;
-        position: fixed;
+        position: absolute;
         border-radius: 6px;
         left: 0;
         width: 100%;
@@ -190,10 +165,9 @@ label a {
         flex-direction: column;
         justify-content: space-around;
     }
+
     .botao1 {
-        margin-top: 400px;
+        margin-top: 370px;
     }
-    .botao2 {
-        margin-bottom: 40px;
-    }
+
 }
