@@ -1,7 +1,7 @@
 # Product Landing Page
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/product-page/blob/master/images/product-page.png" alt="Site">
+<img src="https://github.com/luizfelipe9627/product-page/blob/master/images/productpage.png" alt="Site">
 
 # Resumo
 Anunciei o celular Galaxy S8 Plus, na qual o usuário terá acesso a review, especificações e a opção de compra.
