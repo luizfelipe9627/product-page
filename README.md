@@ -3,10 +3,10 @@
 
 <img src="https://github.com/luizfelipe9627/product-page/blob/main/images/product-page.png" alt="Site">
 
-# Resumo
+## 📄 Resumo
 Anunciei o celular Galaxy S8 Plus, na qual o usuário terá acesso a review, especificações e a opção de compra.
 
-# <a href="https://luizfelipe9627.github.io/product-page">Acesse o site</a>
+## <a href="https://luizfelipe9627.github.io/product-page">Acesse o site</a>
 
 ## ✔️ Tecnologias utilizadas
 
