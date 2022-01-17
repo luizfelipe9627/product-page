@@ -74,7 +74,7 @@ nav .active a,  nav a:hover {
 	FUNDO CONTEUDO↴
 */
 
- .fundo_conteudo {
+.fundo_conteudo {
     display: flex;
     height: 100vh;
     padding-left: 55px;
@@ -84,7 +84,7 @@ nav .active a,  nav a:hover {
 	DESCRIÇÃO PRODUTO ↴
 */
 
- .descricao_produto {
+.descricao_produto {
     display: flex;
     flex-direction: column;
     width: 42%;
@@ -100,12 +100,12 @@ nav .active a,  nav a:hover {
     font-size: 16px;
 }
 
- .produto h1 {
+.produto h1 {
     font-weight: bolder;
     padding-right: 100px;
 }
 
- button {
+button {
    border: 1px solid black;
    background-color: transparent;
    height: 25px;
@@ -113,17 +113,17 @@ nav .active a,  nav a:hover {
    border-radius: 20px;
 }
 
- .botao1 {
+.botao1 {
     margin-bottom: 10px;
     font-size: 17px;
     margin-top: 5px;
 }
 
- .botao2 {
+.botao2 {
     font-size: 17px;
 }
 
- button:hover {
+button:hover {
     background-color: #0a3e82;
     color: white;
     font-size: 19px;
@@ -131,11 +131,11 @@ nav .active a,  nav a:hover {
     box-shadow: 2px 2px 10px rgb(131, 130, 130);
 }
 
- label {
+label {
     text-align: center;
 }
 
- label a {
+label a {
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ nav .active a,  nav a:hover {
 	FOTO PRODUTO ↴
 */
 
- .produto {
+.produto {
     display: flex;
     align-items: center;
     width: 30%;
