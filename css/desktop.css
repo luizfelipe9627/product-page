@@ -151,3 +151,23 @@ label a {
     border: 1px solid rgba(0, 0, 0, 0.11);
     border-radius: 5px;
 }
+
+/* 
+	ÁREA CRIADO POR ↴
+*/
+
+.created_by {
+	text-align: center;
+	padding-top: 10px;
+    padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.created_by a {
+	color: blue;
+	text-decoration: none;
+}
+
+.created_by a:hover {
+    color: rgb(0, 119, 255);
+}
