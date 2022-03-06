@@ -171,3 +171,88 @@ label a {
 .created_by a:hover {
     color: rgb(0, 119, 255);
 }
+
+/*
+	RESPONSIVIDADE PARA SMARTPHONE ↴
+*/
+
+@media (max-width: 750px) {
+    /*
+	MENU ↴
+    */
+    
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        border-radius: 6px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+ }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    /*
+	FUNDO CONTEUDO↴
+    */
+
+    .fundo_conteudo {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 10px;  
+    }
+    
+    .fundo_conteudo h1 {
+        font-size: 18px;
+    }
+
+    /*
+	DESCRIÇÃO PRODUTO ↴
+    */
+
+    .descricao_produto {
+        width: 285px;
+        margin-left: 15px;
+        margin-right: 0px;
+        height: 950px;
+        line-height: 19px;
+    }
+
+    .descricao_produto h1 {
+        padding-top: 40px;
+    }
+
+    .botao1 {
+        margin-top: 390px;
+    }
+
+    .botao2 {
+        margin-bottom: 45px;
+    }
+
+    /*
+        FOTO PRODUTO ↴
+    */
+
+    .produto {
+        position: absolute;
+        width: 290px;
+        height: 300px;
+        margin-top: 600px;
+        border: none;
+    }
+
+    /* 
+	ÁREA CRIADO POR ↴
+    */
+
+    .created_by {
+        margin-top: 230px;
+    }
+}
