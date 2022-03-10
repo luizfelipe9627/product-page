@@ -3,12 +3,15 @@
 
 <img src="https://github.com/luizfelipe9627/product-page/blob/main/images/product-page.png" alt="Site">
 
-## 📄 Resumo
+## 📄 Descrição
 Anunciei o celular Galaxy S8 Plus, na qual o usuário terá acesso a review, especificações e a opção de compra.
+
+## 📑 Observação
+Este layout foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
 ## <a href="https://luizfelipe9627.github.io/product-page">Acesse o site</a>
 
-## ✔️ Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 
 - ``HTML5``
 - ``CSS3``
@@ -28,7 +31,7 @@ Anunciei o celular Galaxy S8 Plus, na qual o usuário terá acesso a review, esp
   </tr>
 </table>
 
-## 😄 Me siga nas redes sociais<br>
+## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
