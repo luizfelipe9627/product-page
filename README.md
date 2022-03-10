@@ -9,7 +9,7 @@ Anunciei o celular Galaxy S8 Plus, na qual o usuário terá acesso a review, esp
 ## 📑 Observação
 Este layout foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
-## <a href="https://luizfelipe9627.github.io/product-page">Acesse o site</a>
+### <a href="https://luizfelipe9627.github.io/product-page">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
